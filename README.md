@@ -16,9 +16,9 @@ If you have a system with a fairly recent Perl already, then Carton is your
 next best choice:
 
 ```bash
-$ git clone http://github.com/robn/towncrier.git
+$ git clone https://github.com/robn/towncrier.git
 $ cd towncrier
-$ curl -L http://cpanmin.us | perl - Carton
+$ curl -L https://cpanmin.us/ | perl - Carton
 $ carton install --deployment
 $ carton exec plackup bin/app.pl
 ```
@@ -42,7 +42,7 @@ There's some knobs you can twiddle in config.yml.
 
 ## demo
 
-FastMail are using this. See http://www.fastmailstatus.com/
+FastMail are using this. See https://www.fastmailstatus.com/
 
 ## credits and license
 
@@ -51,15 +51,14 @@ Copyright (c) 2014 Robert Norris. MIT license. See LICENSE.
 towncrier started as a clone of Stashboard. The templates, stylesheets and
 general layout are lifted from it. So Copyright (c) 2010 Twilio Inc.
 
-Uses Font Awesome by Dave Gandy. http://fontawesome.io
+Uses Font Awesome by Dave Gandy. https://fontawesome.com/
 
-Uses Pure CSS by Yahoo!. http://purecss.io
+Uses Pure CSS by Yahoo!. https://purecss.io/
 
-Bell icon by icons8.com
+Bell icon by https://icons8.com/
 
 I think that's everyone.
 
 ## contributing
 
 Please hack on this and send pull requests :)
-

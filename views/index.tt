@@ -77,7 +77,7 @@
         <tr>
         <td class="service"><a href="<% e.service.url %>"><% e.service.name %></a></td>
         <td class="time">
-          <a href="http://www.timeanddate.com/worldclock/fixedtime.html?<% date.format(time = e.timestamp, format = "year=%Y&month=%m&day=%d&hour=%H&min=%M&p1=0") %>">
+          <a href="https://www.timeanddate.com/worldclock/fixedtime.html?<% date.format(time = e.timestamp, format = "year=%Y&month=%m&day=%d&hour=%H&min=%M&p1=0") %>">
             <% date.format(time = e.timestamp, format = "%e %h %Y %H:%M:%S") %> UTC
           </a><br>
           (<% timesince.timesince(e.timestamp) %>)
